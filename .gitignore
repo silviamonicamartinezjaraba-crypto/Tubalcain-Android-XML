@@ -33,3 +33,6 @@ google-services.json
 
 # Android Profiling
 *.hprof
+actualizar_profesor.bat
+guardar_mis_cambios.bat
+crear_nueva_rama.bat
