@@ -42,7 +42,7 @@
             android:id="@+id/textViewLabelPelicula"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="32dp"
             android:text="@string/label_pelicula"
             android:textColor="@color/blanco"
             android:textSize="16sp"
@@ -102,23 +102,39 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/editTextEntradas" />
 
+        <!-- 1. Botón OPCIONES -->
+        <Button
+            android:id="@+id/buttonMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="56dp"
+            android:backgroundTint="@color/fondo_tarjeta"
+            android:paddingHorizontal="24dp"
+            android:text="@string/opciones"
+            android:textColor="@color/blanco"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textViewPrecio" />
+
+        <!-- 2. Botón CALCULAR PRECIO (debajo de OPCIONES) -->
         <Button
             android:id="@+id/buttonCalcular"
             android:layout_width="0dp"
             android:layout_height="56dp"
-            android:layout_marginTop="28dp"
+            android:layout_marginTop="48dp"
             android:backgroundTint="@color/amarillo"
             android:text="@string/calcular"
             android:textColor="@color/fondo"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/textViewPrecio" />
+            app:layout_constraintTop_toBottomOf="@id/buttonMenu" />
 
+        <!-- 3. Texto TOTAL (debajo de CALCULAR PRECIO) -->
         <TextView
             android:id="@+id/textViewTotal"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="28dp"
+            android:layout_marginTop="48dp"
             android:gravity="center"
             android:text="@string/total_inicial"
             android:textColor="@color/amarillo"
@@ -128,23 +144,11 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/buttonCalcular" />
 
-        <Button
-            android:id="@+id/buttonMenu"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:backgroundTint="@color/fondo_tarjeta"
-            android:text="@string/opciones"
-            android:textColor="@color/blanco"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/textViewTotal" />
-
         <TextView
             android:id="@+id/textViewNota"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="24dp"
             android:gravity="center"
             android:text="@string/nota"
             android:textColor="@color/gris"
@@ -152,7 +156,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/buttonMenu" />
+            app:layout_constraintTop_toBottomOf="@id/textViewTotal" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

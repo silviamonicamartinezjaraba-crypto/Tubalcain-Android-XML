@@ -6,4 +6,7 @@
     <item
         android:id="@+id/menuAcercaDe"
         android:title="@string/menu_acerca_de" />
+    <item
+        android:id="@+id/menuSalir"
+        android:title="@strings/menuTextoPersonalizado" />
 </menu>

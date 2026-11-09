@@ -10,7 +10,7 @@ import net.tubalcain.cinemaxxml.databinding.ActivityMainBinding
 class MainActivity : Activity() {
 
     private lateinit var binding: ActivityMainBinding
-    private val precioEntrada = 8
+    private val precioEntrada = 9
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,7 +24,8 @@ class MainActivity : Activity() {
             "Minecraft: La película",
             "Sonic 3",
             "Super Mario Bros.: La película",
-            "Dune: Parte 2"
+            "Dune: Parte 2",
+            "La hipótesis del amor"
         )
 
         val adaptador = ArrayAdapter(this, R.layout.item_spinner, peliculas)
@@ -77,6 +78,11 @@ class MainActivity : Activity() {
 
                 R.id.menuAcercaDe -> {
                     Toast.makeText(this, R.string.acerca_de, Toast.LENGTH_LONG).show()
+                    true
+                }
+
+                R.id.menuTextoPersonalizado-> {
+                    Toast.makeText(this, "Bienvenid@ de nuevo!", Toast.LENGTH_LONG).show()
                     true
                 }
 

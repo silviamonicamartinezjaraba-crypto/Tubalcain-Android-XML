@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="fondo">#111827</color>
-    <color name="fondo_tarjeta">#374151</color>
-    <color name="amarillo">#806600</color>
+    <color name="fondo">#000000</color>
+    <color name="fondo_tarjeta">#493a1d</color>
+    <color name="amarillo">#ffd580</color>
     <color name="blanco">#FFFFFF</color>
-    <color name="gris">#D1D5DB</color>
+    <color name="gris">#6d572c</color>
 </resources>
