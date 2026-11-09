@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CINEMAX</string>
-    <string name="titulo">🎬 CINEMAX</string>
-    <string name="subtitulo">Reserva tus entradas (simulación)</string>
+    <string name="titulo">🎬 THESICINE</string>
+    <string name="subtitulo">Reserva tus entradas en THESICINE</string>
     <string name="label_pelicula">Elige una película</string>
     <string name="label_entradas">Número de entradas</string>
     <string name="hint_entradas">De 1 a 10</string>
