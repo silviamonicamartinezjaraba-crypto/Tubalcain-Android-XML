@@ -81,7 +81,7 @@ class MainActivity : Activity() {
                     true
                 }
 
-                R.id.menuTextoPersonalizado-> {
+                R.id.menu_personalizado -> {
                     Toast.makeText(this, "Bienvenid@ de nuevo!", Toast.LENGTH_LONG).show()
                     true
                 }

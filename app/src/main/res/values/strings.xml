@@ -16,5 +16,6 @@ Total: %3$d,00 €</string>
     <string name="reiniciar">Reiniciar cálculo</string>
     <string name="menu_acerca_de">Acerca de</string>
     <string name="acerca_de">CINEMAX XML · Proyecto de clase DAM2</string>
+    <string name="menu_personalizado">Bienvenid@ de nuevo! </string>
     <string name="nota">Ejercicio educativo: no se realiza ninguna compra real.</string>
 </resources>
